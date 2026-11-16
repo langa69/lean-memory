@@ -2,7 +2,7 @@
 
 Um servidor MCP de memória local para ajudar assistentes de programação a retomar tarefas em outra conversa. Ele guarda **resumos curtos por tarefa** e permite recuperar somente o resumo relevante.
 
-> Protótipo inicial. Ainda não há medição comparativa de consumo de tokens com o ai-memory. O consumo depende de como o assistente usa as ferramentas e escreve os resumos.
+> Protótipo inicial. O armazenamento local foi testado, mas a integração MCP e a instalação ainda precisam de um teste completo. Ainda não há medição comparativa de consumo de tokens com o ai-memory. O consumo depende de como o assistente usa as ferramentas e escreve os resumos.
 
 ## Como funciona
 
@@ -97,4 +97,3 @@ python -m unittest discover -s tests -v
 ```
 
 Em Windows, use `.\.venv\Scripts\python.exe` no lugar de `python`; em Linux/macOS, `.venv/bin/python`. Os testes usam diretórios temporários e não acessam dados reais.
-
